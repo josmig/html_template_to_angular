@@ -1,9 +1,10 @@
 {
-    "titulo" : "Miguel 's",
+    "titulo" : "Migue'l Portfolio",
     "email" : "pantigosomiguel59@gmail.com",
     "nombre_corto": "Miguel",
     "pagina_autor": "miguelpantigoso.com",
-    "facebook": "https://www.facebook.com",
-    "twitter" : "@MiguePantigoso",
+    "facebook": "https://www.facebook.com/MiguePantigoso/",
+    "instagram": "https://instagram.com",
+    "twitter" : "https://twitter.com/MiguePantigoso",
     "equipo_trabajo" :[]
 }
