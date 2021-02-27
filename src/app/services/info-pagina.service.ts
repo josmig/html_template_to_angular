@@ -11,7 +11,7 @@ export class InfoPaginaService {
   /* info: any = {};  *///para que no tenga el tipo any podemos crear una interface
 
   info: infoPagina ={};
-  cargada = false;
+
 
 
   constructor(private http: HttpClient) {
@@ -21,7 +21,6 @@ export class InfoPaginaService {
     this.http.get('assets/data/data-pagina.json')
       .subscribe( (resp: infoPagina) => {
 
-        this.cargada = true;
         this.info = resp;
         console.log(resp);
 

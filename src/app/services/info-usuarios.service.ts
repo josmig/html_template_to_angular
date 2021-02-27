@@ -1,13 +1,13 @@
 import { Injectable } from '@angular/core';
 import { HttpClient} from '@angular/common/http';
+import { infoUsuario } from '../interfaces/info-usuario.interface';
 
 @Injectable({
   providedIn: 'root'
 })
 export class InfoUsuariosService {
 
-  equipo: any=[];
-  cargada = false;
+  equipo: infoUsuario={};
 
   constructor(private http: HttpClient) {
       console.log('Servicio Usuario Listo!!');
@@ -17,9 +17,11 @@ export class InfoUsuariosService {
   private cargarEquipo(){
     //leer archivo
     this.http.get('https://angular-html-webapp-5a215-default-rtdb.firebaseio.com/equipo.json')
-    .subscribe( (data: any) => {
+    .subscribe( (data: infoUsuario) => {
+
+      this.equipo = data;
       console.log(data);
-      this.cargada=true;
+
     })
   }
 }

@@ -8,7 +8,7 @@ import { InfoUsuariosService } from '../../../services/info-usuarios.service';
 })
 export class AboutComponent implements OnInit {
 
-  constructor(public _infoEquipo: InfoUsuariosService) { }
+  constructor(public _infoEquipo: InfoUsuariosService) {}
 
   ngOnInit(): void {
   }
