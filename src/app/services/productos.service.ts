@@ -1,7 +1,6 @@
-import { Producto } from './../interfaces/producto.interface';
 import { Injectable } from '@angular/core';
 import { HttpClient} from '@angular/common/http';
-import { Producto } from '../interfaces/producto.interface';
+import { Producto } from './../interfaces/producto.interface';
 
 @Injectable({
   providedIn: 'root'
@@ -15,6 +14,7 @@ export class ProductosService {
 
   constructor(private http: HttpClient) {
     this.cargarProductos();
+
   }
 
   private cargarProductos(){
@@ -28,6 +28,10 @@ export class ProductosService {
           this.cargando = false;
         },2000);
       })
+  }
+
+  getProducto(id: string){
+    return this.http.get(`https://angular-html-webapp-5a215-default-rtdb.firebaseio.com/productos/${id}.json`)
   }
 
 
