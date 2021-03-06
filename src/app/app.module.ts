@@ -11,6 +11,7 @@ import { AboutComponent } from './components/pages/about/about.component';
 import { ItemComponent } from './components/pages/item/item.component';
 //Rutas
 import { AppRoutingModule } from './app-routing.module';
+import { SearhComponent } from './components/shared/searh/searh.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { AppRoutingModule } from './app-routing.module';
     FooterComponent,
     PortafolioComponent,
     AboutComponent,
-    ItemComponent
+    ItemComponent,
+    SearhComponent
   ],
   imports: [
     BrowserModule,
