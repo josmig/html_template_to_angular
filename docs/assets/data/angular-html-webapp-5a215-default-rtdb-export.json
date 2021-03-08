@@ -1,0 +1,21 @@
+{
+  "equipo" : [ {
+    "frase" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
+    "nombre" : "Miguel Pantigoso",
+    "subtitulo" : "Diseñador y Desarrollador",
+    "twitter" : "@MiguePantigoso",
+    "url" : "https://firebasestorage.googleapis.com/v0/b/angular-html-webapp-5a215.appspot.com/o/team-1.jpg?alt=media&token=57483839-a5b7-4039-bfd0-d8f61e583936"
+  }, {
+    "frase" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
+    "nombre" : "Melissa Flores",
+    "subtitulo" : "Ingeniera de sistemas",
+    "twitter" : "@MellParedes",
+    "url" : "https://firebasestorage.googleapis.com/v0/b/angular-html-webapp-5a215.appspot.com/o/team-2.jpg?alt=media&token=6d1f9b21-e56b-436c-9587-30be54cdf1bf"
+  }, {
+    "frase" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
+    "nombre" : "Juan Perez",
+    "subtitulo" : "Diseñador UI",
+    "twitter" : "@Pelaez",
+    "url" : "https://firebasestorage.googleapis.com/v0/b/angular-html-webapp-5a215.appspot.com/o/team-3.jpg?alt=media&token=68a6abd9-9f75-4a45-a51b-c9fc62ee8ceb"
+  } ]
+}
